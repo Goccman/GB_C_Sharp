@@ -13,7 +13,7 @@ int number = Int32.Parse(Console.ReadLine() ?? "");
 if ((number >=100) && (number < 1000))
 {
     int num = number / 10 % 10;
-    Console.WriteLine($"Вторая цифра введеного числа: {num}");
+    Console.WriteLine($"Вторая цифра введенного числа: {num}");
 }
 else {
     Console.WriteLine($"Число {number} не трехзначное");
