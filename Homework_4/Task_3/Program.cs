@@ -30,6 +30,7 @@ void PrintArray(int [] array){
 
 }
 
+
 Console.Write("Элементы массива: ");
 int [] arr = InitArray(8);
 PrintArray(arr);
