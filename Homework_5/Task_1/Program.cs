@@ -31,7 +31,7 @@ void PrintArray(int[] array)
 }
 
 
-//получает сумму четных элементов в массиве
+//получает количество четных чисел в массиве
 int GetEvenNumber(int[] arr)
 {
     int count = 0;
