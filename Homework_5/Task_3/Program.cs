@@ -70,3 +70,5 @@ int min = MinElement(array);
 Console.WriteLine($"Максимальный элемент в массиве: {max}");
 Console.WriteLine($"Минимальный элемент в массиве: {min}");
 Console.WriteLine($"Разница между максимальным и минимальным элементами: {max - min}");
+
+
