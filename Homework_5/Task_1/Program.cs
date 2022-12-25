@@ -49,5 +49,6 @@ Console.Write("Введите количество элементов в мас�
 int numArray = Int32.Parse(Console.ReadLine() ?? "");
 int[] array = InitArray(numArray);
 PrintArray(array);
-int count = GetNumber(array);
+int count = GetEvenNumber(array);
 Console.WriteLine($"Количество четных чисел в массиве: {count}");
+
