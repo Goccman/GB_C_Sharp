@@ -71,7 +71,7 @@ void AvgColumns(int[,] matrix)
         {
             avgCol += matrix[j, i];
         }
-        avgCol = Math.Round(avgCol / matrix.GetLength(1), 1);
+        avgCol = Math.Round(avgCol / matrix.GetLength(0), 1);
         Console.WriteLine($"Среднеарефметическое столбца № {i + 1}: {avgCol}");
     }
 
