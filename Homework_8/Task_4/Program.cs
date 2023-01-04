@@ -7,10 +7,7 @@
 34(1,0,0) 41(1,1,0)
 27(0,0,1) 90(0,1,1)
 26(1,0,1) 55(1,1,1)
-
 */
-
-
 
 
 //получить число с консоли
@@ -73,7 +70,6 @@ void GetArray(int[,,] array3D)
 }
 
 
-
 // печать массива
 void PrintArray(int[,,] array)
 {
@@ -90,7 +86,6 @@ void PrintArray(int[,,] array)
     }
 }
   
-
 
 int x = GetNumber("Введите X: ");
 int y = GetNumber("Введите Y: ");
