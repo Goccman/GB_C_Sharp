@@ -64,7 +64,7 @@ void PrintMatrix(int[,] matrix)
 
 
 
-
+// произведение двух матриц
 void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatrix)
 {
   for (int i = 0; i < resultMatrix.GetLength(0); i++)
