@@ -67,18 +67,18 @@ void PrintMatrix(int[,] matrix)
 // произведение двух матриц
 void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatrix)
 {
-  for (int i = 0; i < resultMatrix.GetLength(0); i++)
-  {
-    for (int j = 0; j < resultMatrix.GetLength(1); j++)
+    for (int i = 0; i < resultMatrix.GetLength(0); i++)
     {
-      int sum = 0;
-      for (int k = 0; k < firstMartrix.GetLength(1); k++)
-      {
-        sum += firstMartrix[i,k] * secomdMartrix[k,j];
-      }
-      resultMatrix[i,j] = sum;
+        for (int j = 0; j < resultMatrix.GetLength(1); j++)
+        {
+            int sum = 0;
+            for (int k = 0; k < firstMartrix.GetLength(1); k++)
+            {
+                sum += firstMartrix[i, k] * secomdMartrix[k, j];
+            }
+            resultMatrix[i, j] = sum;
+        }
     }
-  }
 }
 
 
