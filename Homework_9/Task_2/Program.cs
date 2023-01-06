@@ -33,7 +33,7 @@ int SumNumber(int m, int n)
     int result = 0;
     if (m > n)
     {
-        Console.WriteLine("Ввели первое число больше второго");
+        Console.WriteLine("Ввели второе число меньше первого");
     }
     else
     {
