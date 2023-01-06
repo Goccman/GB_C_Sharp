@@ -45,6 +45,7 @@ int SumNumber(int m, int n)
 
 
 int m = GetNumber("Введите первое число: ");
-int n = GetNumber("Введите второе число: ");
+int n = GetNumber("Введите число больше первого: ");
 int result = SumNumber(m, n);
 Console.WriteLine($"Сумма  элементов в промежутке от {m} до {n} равняется {result}");
+
